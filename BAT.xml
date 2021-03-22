@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sprint 33 Regression">
+<!-- <listeners>
+<listener class-name="com.amzur.edo.CustomListener" />
+<listener class-name="org.uncommons.reportng.HTMLReporter" />
+<listener
+class-name="org.uncommons.reportng.JUnitXMLReporter" />
+</listeners> -->
+  <test thread-count="5" name="Login">
+    <classes>
+      <class name="evoke_web.Login"/>
+      
+     <!--  <class name="evoke_web.sites"/> -->
+      <!--  <class name="cnodashobard_testmethods.CNO_Manufactures"/> -->
+   <!--      <class name="cnodashobard_testmethods.CNO_Models"/> -->
+       <!--   <class name="cnodashobard_testmethods.Orgnizationtab"/> -->
+   <!--       <class name="cnodashobard_testmethods.Cnouserstab"/> -->
+         <!--  <class name="cnodashobard_testmethods.rolesmodule"/> -->
+       <!--     <class name="cnodashobard_testmethods.Cnomanagepoliciestab"/> -->
+     <!--    <class name="evoke_web.managepolicies_tab"/> -->
+    
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite1 -->

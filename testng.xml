@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite_Sri_2nd March">
+<!-- <listeners>
+<listener class-name="com.amzur.edo.CustomListener" />
+<listener class-name="org.uncommons.reportng.HTMLReporter" />
+<listener
+class-name="org.uncommons.reportng.JUnitXMLReporter" />
+</listeners> -->
+  <test thread-count="5" name="pendingtab">
+    <classes>
+      <!-- <class name="evoke_web.Login"/> -->
+      
+     <!--  <class name="evoke_web.sites"/> -->
+      <!--   <class name="evoke_web.managepolicies_tab"/> -->
+   <!--      <class name="evoke_web.privilegesTab"/> -->
+   
+ <!--         <class name="evoke_web.userstab"/> -->
+          <class name="evoke_web.pendingtab"/>
+        
+    
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite1 -->
